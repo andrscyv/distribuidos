@@ -1,18 +1,19 @@
 /*
- * To change this template, choose Tools | Templates
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package javatcpsockets;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 /**
  *
- * @author JGUTIERRGARC
+ * @author sdist
  */
-
-import java.net.*;
-import java.io.*;
-
-
-public class TCPServer {
+public class TCPServerMio {
     
     public static void main (String args[]) {
 	try{
@@ -29,7 +30,3 @@ public class TCPServer {
     }
    
 }
-
-
-
-
